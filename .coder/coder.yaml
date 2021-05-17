@@ -4,8 +4,8 @@ workspace:
   spec:
     image: index.docker.io/marktmilligan/python3-pycharm:vsix
     container-based-vm: false
-    cpu: 2
-    memory: 2 
+    cpu: 4
+    memory: 8 
     disk: 10
     labels:
       com.coder.custom.python.version: "3.8.5"   
